@@ -1,0 +1,9 @@
+#monument {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.visible {
+    margin: 15px;
+    position: relative; 
+}

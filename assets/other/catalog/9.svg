@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="750px" height="1000px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 750000 1000000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:white;stroke-width:2810;stroke-linejoin:bevel;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil0 {fill:black}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2999615820736">
+   <g id="_2649745249232">
+    <g>
+     <polygon class="fil0" points="295960,835410 295960,75670 295960,75670 321290,75670 321290,75670 321290,25020 321290,25020 169480,25020 169480,25020 169480,835410 169480,835410 "/>
+     <g>
+     </g>
+    </g>
+    <g>
+     <polygon class="fil0" points="295960,75670 295960,835410 295960,835410 523880,835410 523880,835410 650500,582160 650500,582160 523880,75670 523880,75670 "/>
+     <g>
+     </g>
+    </g>
+    <g>
+     <polygon class="fil0" points="68180,987220 701150,987220 701150,987220 701150,886060 701150,886060 118820,886060 118820,886060 68180,886060 68180,886060 "/>
+     <g>
+     </g>
+    </g>
+    <g>
+     <polygon class="fil0" points="118820,886060 650500,886060 650500,886060 650500,835410 650500,835410 523880,835410 523880,835410 295960,835410 295960,835410 118820,835410 118820,835410 "/>
+     <g>
+     </g>
+    </g>
+    <line class="fil1 str0" x1="295960" y1="835410" x2="295960" y2= "75670" />
+    <line class="fil1 str0" x1="295960" y1="835410" x2="523880" y2= "835410" />
+    <line class="fil1 str0" x1="295960" y1="75670" x2="523880" y2= "75670" />
+    <line class="fil1 str0" x1="523880" y1="75670" x2="650500" y2= "582160" />
+    <line class="fil1 str0" x1="650500" y1="582160" x2="523880" y2= "835410" />
+    <line class="fil1 str0" x1="169480" y1="25020" x2="321290" y2= "25020" />
+    <line class="fil1 str0" x1="321290" y1="25020" x2="321290" y2= "75670" />
+    <line class="fil1 str0" x1="169480" y1="25020" x2="169480" y2= "835410" />
+    <line class="fil1 str0" x1="169480" y1="835410" x2="295960" y2= "835410" />
+    <line class="fil1 str0" x1="118820" y1="835410" x2="650500" y2= "835410" />
+    <line class="fil1 str0" x1="118820" y1="835410" x2="118820" y2= "886060" />
+    <line class="fil1 str0" x1="118820" y1="886060" x2="701150" y2= "886060" />
+    <line class="fil1 str0" x1="118820" y1="886060" x2="68180" y2= "886060" />
+    <line class="fil1 str0" x1="68180" y1="886060" x2="68180" y2= "987220" />
+    <line class="fil1 str0" x1="68180" y1="987220" x2="701150" y2= "987220" />
+    <line class="fil1 str0" x1="650500" y1="835410" x2="650500" y2= "886060" />
+    <line class="fil1 str0" x1="701150" y1="886060" x2="701150" y2= "987220" />
+   </g>
+  </g>
+ </g>
+</svg>

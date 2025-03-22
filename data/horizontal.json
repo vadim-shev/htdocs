@@ -1,0 +1,201 @@
+[
+    {
+        "id": 1,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h1.png", 
+        "description": "./assets/models/horizontal/h1t.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h2.png", 
+        "description": "./assets/models/horizontal/h2t.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h3.png", 
+        "description": "./assets/models/horizontal/h3t.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h4.png", 
+        "description": "./assets/models/horizontal/h4t.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h5.png", 
+        "description": "./assets/models/horizontal/h5t.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h6.png", 
+        "description": "./assets/models/horizontal/h6t.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h7.png", 
+        "description": "./assets/models/horizontal/h7t.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h8.png", 
+        "description": "./assets/models/horizontal/h8t.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h9.png", 
+        "description": "./assets/models/horizontal/h9t.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h10.png", 
+        "description": "./assets/models/horizontal/h10t.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h11.png", 
+        "description": "./assets/models/horizontal/h11t.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h12.png", 
+        "description": "./assets/models/horizontal/h12t.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h13.png", 
+        "description": "./assets/models/horizontal/h13t.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h14.png", 
+        "description": "./assets/models/horizontal/h14t.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h15.png", 
+        "description": "./assets/models/horizontal/h15t.jpeg"
+    },
+    {
+        "id": 16,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h16.png", 
+        "description": "./assets/models/horizontal/h16t.jpeg"
+    },
+    {
+        "id": 17,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h17.png", 
+        "description": "./assets/models/horizontal/h17t.jpeg"
+    },
+    {
+        "id": 18,
+        "name": "Двойники", 
+        "serial": "d",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Горизонтальный",
+        "image": "./assets/models/horizontal/h18.png", 
+        "description": "./assets/models/horizontal/h18t.jpeg"
+    }
+
+]

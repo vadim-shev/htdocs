@@ -1,0 +1,18 @@
+.text-title-1 {
+	font-size: 5rem;
+}
+.text-title-2 {
+	font-size: 4.5rem;
+}
+.text-title-3 {
+	font-size: 4rem;
+}
+.text-title-4 {
+	font-size: 3.5rem;
+}
+.text-title-5 {
+	font-size: 3rem;
+}
+.text-title-1, .text-title-2, .text-title-3, .text-title-4, .text-title-5 {
+	font-weight: 300;
+}

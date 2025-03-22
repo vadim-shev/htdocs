@@ -1,0 +1,62 @@
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.int-hamburger {
+    width: 40px;
+    height: 55px;
+}
+.hamburger-container {
+    position: relative;
+    width: 16px;
+    height: 14px;
+    overflow: hidden;
+}
+
+.hamburger-top, 
+.hamburger-middle, 
+.hamburger-bottom {
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    background-color: var(--color-6);
+    transition: top .25s, background-color .5s, transform .25s;
+}
+.hamburger-top {
+    top: 0;
+    left: 0;
+    transform: translate(0);
+}
+.int-hamburger.is-active .hamburger-top {
+    top: 6px;
+    transform: translate(0) rotate(225deg);
+}
+.int-hamburger.is-active:hover .hamburger-top {
+    transition: top .25s, background-color .25s, transform .25s;
+    
+}
+.hamburger-middle {
+    top: 6px;
+    left: 0;
+    transform: translate(8px);
+}
+.int-hamburger.is-active .hamburger-middle {
+    top: 6px;
+    transform: translate(16px);
+}
+.int-hamburger.is-active:hover .hamburger-middle {
+    transition: top .25s, background-color .25s, transform .25s;
+}
+.hamburger-bottom {
+    top: 12px;
+    left: 0;
+    transform: translate(4px);
+}
+.int-hamburger.is-active .hamburger-bottom {
+    top: 6px;
+    transform: translate(0) rotate(135deg);
+}
+.int-hamburger.is-active:hover .hamburger-bottom {
+    transition: top .25s, background-color .25s, transform .25s;
+}

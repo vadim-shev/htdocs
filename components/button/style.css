@@ -1,0 +1,38 @@
+
+.btn {
+        -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    color: #525252;
+    background: #e4e4e4;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: none;
+    max-width: 100%;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.position-btn {
+    
+}
+
+
+@media screen and (min-width: 325px)  {
+    
+}

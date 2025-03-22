@@ -1,0 +1,70 @@
+
+[
+    {
+        "id": 1,
+        "name": "Плитка", 
+        "serial": "p",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Плитка",
+        "image": "./assets/models/plates/h1.png", 
+        "description": "./assets/models/plates/h1t.png"
+    },
+    {
+        "id": 2,
+        "name": "Плитка", 
+        "serial": "p",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Плитка",
+        "image": "./assets/models/plates/h2.png", 
+        "description": "./assets/models/plates/h2t.png"
+    },
+    {
+        "id": 3,
+        "name": "Плитка", 
+        "serial": "p",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Плитка",
+        "image": "./assets/models/plates/h3.png", 
+        "description": "./assets/models/plates/h3t.png"
+    },
+    {
+        "id": 4,
+        "name": "Плитка", 
+        "serial": "p",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Плитка",
+        "image": "./assets/models/plates/h4.png", 
+        "description": "./assets/models/plates/h4t.png"
+    },
+    {
+        "id": 5,
+        "name": "Плитка", 
+        "serial": "p",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Плитка",
+        "image": "./assets/models/plates/h5.png", 
+        "description": "./assets/models/plates/h5t.png"
+    },
+    {
+        "id": 6,
+        "name": "Плитка", 
+        "serial": "p",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Плитка",
+        "image": "./assets/models/plates/h6.png", 
+        "description": "./assets/models/plates/h6t.png"
+    }
+    
+]

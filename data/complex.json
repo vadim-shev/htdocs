@@ -1,0 +1,25 @@
+[
+   {
+        "id": 1,
+        "name": "Комплекс", 
+        "serial": "c",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Комплекс",
+        "image": "./assets/models/complex/h1.png", 
+        "description": "./assets/models/complex/h1t.png"
+    },
+   {
+        "id": 2,
+        "name": "Комплекс", 
+        "serial": "c",
+        "price": "1",
+        "inStock": "false",
+        "madeOf": "Гранит",
+        "category": "Комплекс",
+        "image": "./assets/models/complex/h2.png", 
+        "description": "./assets/models/complex/h2t.png"
+    }
+    
+]

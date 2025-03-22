@@ -1,0 +1,212 @@
+/*
+	tagline
+*/
+
+@media screen and (max-width: 374px)  {
+	.tagline {
+    	font-size: 3rem;
+	}
+}
+@media screen and (min-width: 375px)  {
+	.tagline {
+    	font-size: 4rem;
+	}
+}
+@media screen and  (min-width: 600px)  { 
+	.tagline {
+    	font-size: 4.5rem;
+	}
+}
+@media screen and  (min-width: 1024px)  { 
+	.tagline {
+    	font-size: 5.5rem;
+		letter-spacing: 6px;
+	}
+}
+@media screen and  (min-width: 1440px)  { 
+	.tagline {
+    	font-size: 6.5rem;
+		letter-spacing: 6px;
+	}
+}
+@media screen and  (min-width: 1720px)  { 
+	.tagline {
+    	font-size: 7.5rem;
+		letter-spacing: 6px;
+	}
+}
+
+	.tagline {
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		color: var(--color-1);
+	}
+/*
+	description-container
+*/
+.description-container {
+    position: relative;
+
+    display: flex;
+
+    height: auto;
+    margin: 0;
+
+    background-color: rgba(0, 0, 0, 0);
+}
+@media screen and (min-width: 320px)  {
+	.description-container {
+    	flex-direction: column;
+    	align-items: center;
+
+        width: 70%;
+        max-width: 220px;
+        padding: 20px 0px 20px 0px;
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 375px)  {
+	.description-container {
+    	flex-direction: column;
+    	align-items: center;
+
+        width: 70%;
+        max-width: 220px;
+        padding: 20px 0px 20px 0px;
+        margin-top: 10%;
+    }
+}
+@media screen and  (min-width: 600px)  { 
+	.description-container {
+    	flex-direction: column;
+    	align-items: center;
+
+        width: 65%;
+        max-width: 340px;
+        padding: 20px 0px 20px 0px;
+    }
+}
+@media screen and  (min-width: 1024px)  { 
+	.description-container {
+    	flex-direction: column;
+    	align-items: center;
+
+        width: 60%;
+        max-width: 440px;
+        padding: 20px 0px 20px 0px;
+    }
+}
+@media screen and  (min-width: 1440px)  { 
+	.description-container {
+    	flex-direction: column;
+    	align-items: center;
+
+        width: 60%;
+        max-width: 440px;
+        padding: 20px 0px 20px 0px;
+    }
+}
+	/*.description-container::before {
+	    top: 0;
+	    right: 0;
+	    clip-path: polygon(0 0, 100% 0, 100% 100%);
+	}*/
+	/*.description-container::before,
+	.description-container::after {
+	    content: "";
+	    position: absolute;
+	    background-color: rgba(0, 0, 0, 0); 
+	    border: 1px solid rgba(0, 0, 0, 1.0);
+	}*/
+	@media screen and (min-width: 320px)  {
+		.description-container::before,
+	    .description-container::after {
+	        width: 30px; 
+	        height: 30px;
+	    }
+	}
+	@media screen and (min-width: 375px)  {
+		.description-container::before,
+	    .description-container::after {
+	        width: 30px; 
+	        height: 30px;
+	    }
+	}
+	@media screen and  (min-width: 600px)  { 
+		.description-container::before,
+	    .description-container::after {
+	        width: 70px; 
+	        height: 70px;
+	    }
+	}
+	@media screen and  (min-width: 1024px)  { 
+		.description-container::before,
+	    .description-container::after {
+	        width: 90px; 
+	        height: 90px;
+	    }
+	}
+	@media screen and  (min-width: 1440px)  { 
+		.description-container::before,
+	    .description-container::after {
+	        width: 110px; 
+	        height: 110px;
+	    }
+	}
+	.description-container::after {
+	    bottom: 0;
+	    left: 0;
+	    clip-path: polygon(0 0, 0 100%, 100% 100%);
+	}
+
+/*
+	description
+*/
+.description-container span,
+.description-container h2 {
+    text-align: left;
+    margin: 0;
+}
+@media screen and (min-width: 320px)  {
+    .description-container h2 {
+        font-size: 32px;
+        margin: 0;
+    }
+	.description-container span {
+        letter-spacing: .01em;
+    }
+}
+@media screen and (min-width: 375px)  {
+    .description-container h2 {
+        font-size: 32px;
+        margin: 0;
+    }
+	.description-container span {
+        letter-spacing: .01em;
+    }
+}
+@media screen and  (min-width: 600px)  { 
+    .description-container h2 {
+        font-size: 48px;
+    }
+	.description-container span {
+        font-size: 24px;
+    }
+}
+@media screen and  (min-width: 1024px)  { 
+    .description-container h2 {
+        font-size: 64px;
+    }
+	.description-container span {
+        font-size: 32px;
+    }
+}
+@media screen and  (min-width: 1440px)  { 
+    .description-container h2 {
+        font-size: 64px;
+    }
+	.description-container span {
+        font-size: 32px;
+    }
+}

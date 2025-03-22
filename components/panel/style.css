@@ -1,0 +1,35 @@
+
+
+#contact .vt-container {
+	background: var(--granit-dark-blue-4);
+	color: rgba(205, 205, 205, 1.0);
+	letter-spacing: 2px;
+}
+#contact .vt-container div {
+	width: 25%;
+    padding: 20px 20px 20px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contact .vt-container h3 {
+	font-size: 20px;
+	margin: 0;
+	line-height: 1.2;
+	font-weight: 900;
+    margin-bottom: 15px;
+}
+#contact .vt-container p {
+	margin: 0;
+	color: gray;
+	font-size: 14px;
+}
+@media (max-width: 1100px) {
+    #contact .vt-container div {
+		width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    #contact .vt-container div {
+        width: 100%;
+    }
+}

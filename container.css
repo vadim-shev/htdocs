@@ -1,0 +1,198 @@
+.nav-bar-container .highlight {
+    color: var(--color-5);
+}
+.nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    overflow-x: hidden !important;
+    color: var(--color-5);
+}
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100 !important;
+}
+.nav-bar-style {
+    backdrop-filter: blur(15px);    
+    border-bottom: 1px solid var(--granit-light-blue-4);
+    background-color: rgba(255, 255, 255, .1);
+    transition: border-color .5s, background-color .5s;
+}
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: var(--accent);
+  color: var(--text);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.products, .materials, .contact {
+  margin-bottom: 40px;
+}
+
+.products h2, .materials h2, .contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 150px;
+  background-color: var(--text);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.material-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.material {
+  flex: 1;
+  height: 100px;
+  background-color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  align-self: flex-end;
+}
+#material { 
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url('assets/back.jpg');
+/*    background-position: 0px 100px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.material_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 15px;
+    color: white;
+}
+.dimovsky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;       
+    background-image: url('assets/materials/dimovsky_granit.jpg');
+    background-size: contain;
+}
+.gabbro_diass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    background-size: contain;
+    background-image: url('assets/materials/gabbro_diabas_granit.jpg');
+
+}
+.green_gabbro_diass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    border-radius: 50%; 
+    background-image: url('assets/materials/green_gabbro_diabass_granit.jpg');
+
+}
+.korelsky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-size: contain;
+    height: 100px;
+    border-radius: 50%; 
+    background-image: url('assets/materials/korelsky_granit.jpg');
+
+}
+.korelsky2 {
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    background-image: url('assets/materials/korelsky_granit2.jpg');
+}
+.sopka_bentina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-size: contain;
+    height: 100px;
+    border-radius: 50%; 
+    background-image: url('assets/materials/sopka_bentina_granit.jpg');
+
+}
