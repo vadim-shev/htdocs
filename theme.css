@@ -621,6 +621,10 @@ h1 {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .category_container .category_item {
     background-color: transparent;
@@ -636,6 +640,13 @@ h1 {
     transition: box-shadow 0.3s ease;
     text-decoration: none;
     box-shadow: 3rem 0rem 1rem rgba(0,0,0,0.2), -3rem 0rem 1rem rgba(0,0,0,0.2);
+}
+@media screen and (min-width: 767px) {
+  .category_container .category_item {
+        width: 45%;
+        box-shadow: 3rem 0rem 1rem rgba(0,0,0,0.2), -1rem 0rem 1rem rgba(0,0,0,0.2);
+
+    }
 }
 .category_item h2 { 
     margin: 1rem 0;
@@ -795,16 +806,47 @@ h1 {
     margin: 10px 20px 10px 20px;
     border: 1px solid var(--color-6);
 }
+.prime_highline {
+    font-size: 2.5rem;  
+    width: 95vw; 
+    height: 25vh; 
+    text-align: left; 
+    text-transform: uppercase;
+        margin: 0 0px 0 5px; 
+
+}
+.secondary_highline {
+    font-size: 1.5rem; 
+    width: 95vw; 
+    height: 25vh; 
+    margin: 0 0px 0 15px; 
+    text-align: left;
+}
 .prime_btn {
-   color: var(--color-5);
-   height: auto;
-/*   width: 10vw;*/
-    padding: 10px 15px ;
-    margin: 0 ;
-     border-radius: 50px;
-    border: 1px solid var(--color-6);
-    text-align: center;
-     font-size: 14px;
+   height: auto; 
+   width: auto;  
+   font-size: 1.5rem; 
+   color: black; 
+   background: rgba(255, 255, 255, .5); 
+   padding: 10px 20px; 
+   z-index: 1; 
+   border-radius: 0px;
+}
+@media screen and (min-width: 768px) {
+    .prime_highline {
+        font-size: 5.5rem;  
+
+    }
+    .secondary_highline {
+        font-size: 2.5rem;  
+    margin: 0 0px 0 15px; 
+
+    }
+    .prime_btn {
+        font-size: 3rem;
+   padding: 10px 20px; 
+
+    }
 }
 span {
 /*    line-height: 2rem;*/
