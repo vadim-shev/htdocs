@@ -632,7 +632,7 @@ h1 {
     padding: 20px;
     margin: 10px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 170px;
@@ -642,11 +642,7 @@ h1 {
     box-shadow: 3rem 0rem 1rem rgba(0,0,0,0.2), -3rem 0rem 1rem rgba(0,0,0,0.2);
 }
 @media screen and (min-width: 767px) {
-  .category_container .category_item {
-        width: 45%;
-        box-shadow: 3rem 0rem 1rem rgba(0,0,0,0.2), -1rem 0rem 1rem rgba(0,0,0,0.2);
-
-    }
+  
 }
 .category_item h2 { 
     margin: 1rem 0;
@@ -832,22 +828,7 @@ h1 {
    z-index: 1; 
    border-radius: 0px;
 }
-@media screen and (min-width: 768px) {
-    .prime_highline {
-        font-size: 5.5rem;  
 
-    }
-    .secondary_highline {
-        font-size: 2.5rem;  
-    margin: 0 0px 0 15px; 
-
-    }
-    .prime_btn {
-        font-size: 3rem;
-   padding: 10px 20px; 
-
-    }
-}
 span {
 /*    line-height: 2rem;*/
 }
@@ -932,3 +913,53 @@ display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-arou
 
 
 
+@media screen and (min-width: 567px) {
+    .prime_highline {
+        font-size: 4rem;  
+        margin: 0 0px 0 15px; 
+
+    }
+    .secondary_highline {
+        font-size: 2rem;  
+        margin: 0 0px 0 15px; 
+
+    }
+    .prime_btn {
+        font-size: 2.5rem;
+        padding: 10px 20px; 
+
+    }
+    .category_container .category_item {
+        width: 80%;
+        box-shadow: 3rem 0rem 1rem rgba(0,0,0,0.2), -1rem 0rem 1rem rgba(0,0,0,0.2);
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    }
+}
+@media screen and (min-width: 767px) {
+    .prime_highline {
+        font-size: 5rem;  
+    margin: 0 0px 0 15px; 
+
+    }
+    .secondary_highline {
+        font-size: 2rem;  
+    margin: 0 0px 0 15px; 
+
+    }
+    .prime_btn {
+        font-size: 3rem;
+   padding: 15px 20px; 
+
+    }
+    .category_container .category_item {
+        width: 45%;
+        box-shadow: 3rem 0rem 1rem rgba(0,0,0,0.2), -1rem 0rem 1rem rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+}
