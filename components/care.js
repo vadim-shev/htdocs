@@ -13,11 +13,11 @@ export default {
                         <div class="care_list_container">
                             <div>
                                 <ul>
-                                    <li>Новое надгробие</li>
-                                    <li>Обрамление могил</li>
-                                    <li>Реновация существующих надгробий </li>
-                                    <li>Добавление дополнительных надписей </li>
-                                    <li>Обновление существующих надписей </li>
+                                    <li class="care_list_item">Новое надгробие</li>
+                                    <li class="care_list_item">Обрамление могил</li>
+                                    <li class="care_list_item">Реновация существующих надгробий </li>
+                                    <li class="care_list_item">Добавление дополнительных надписей </li>
+                                    <li class="care_list_item">Обновление существующих надписей </li>
                                 </ul>
                             </div>
                             <div style="display: none;"> 
@@ -27,11 +27,11 @@ export default {
                                         Вам нужно лишь предоставить мастерам следующую информацию:
                                     </p>
                                 </div>
-                                <ul style="    list-style-type: disc; margin-bottom: 1.25em; margin-top: 1.25em; padding-inline-start: 1.625em;">
-                                    <li>название места захоронения</li>
-                                    <li>номер участка под захоронение</li>
-                                    <li>предпочтения по дизайну</li>
-                                    <li>фотографии и информацию для нанесения на табличку или надгробие</li>
+                                <ul >
+                                    <li class="care_list_item">название места захоронения</li>
+                                    <li class="care_list_item">номер участка под захоронение</li>
+                                    <li class="care_list_item">предпочтения по дизайну</li>
+                                    <li class="care_list_item">фотографии и информацию для нанесения на табличку или надгробие</li>
                                 </ul>
                                 <span style="font-weight: bold;">
                                     Важно помнить о том, что 
@@ -86,12 +86,12 @@ export default {
                         <div  class="care_list_container">
                             <div>
                                 <ul >
-                                    <li>Реставрация и очистка мемориала</li>
-                                    <li>Реставрация надписей</li>
-                                    <li>Добавление надписей на мемориал</li>
-                                    <li>Прополка и очистка лишней земли </li>
-                                    <li>Повторное цементирование участка</li>
-                                    <li>Перекладка и/или обновление могильного щебня</li>
+                                    <li class="care_list_item">Реставрация и очистка мемориала</li>
+                                    <li class="care_list_item">Реставрация надписей</li>
+                                    <li class="care_list_item">Добавление надписей на мемориал</li>
+                                    <li class="care_list_item">Прополка и очистка лишней земли </li>
+                                    <li class="care_list_item">Повторное цементирование участка</li>
+                                    <li class="care_list_item">Перекладка и/или обновление могильного щебня</li>
                                 </ul>
                             </div>
                             <button class="btn_order" @click="openModal">Заказать уход</button>

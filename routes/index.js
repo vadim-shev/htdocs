@@ -73,7 +73,7 @@ export default {
         next()
     },
     mounted() {
-        this.updateCurrentSection('prime')
+        this.updateCurrentSection('care')
         this.scrollAction(this.currentSection)
     }
 };

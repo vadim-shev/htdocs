@@ -1,5 +1,6 @@
 .nav-bar-container .highlight {
-    color: var(--color-5);
+    color: var(--color-2);
+    font-size: 1.5rem;
 }
 .nav-bar-container {
     display: flex;
