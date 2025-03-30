@@ -30,7 +30,7 @@ export default {
     data() {
         return {
             currentSection: '',
-            currentPageKey: 'tombstone',
+      currentPageKey: 'tombstone',
         }
     },
     mounted() {
