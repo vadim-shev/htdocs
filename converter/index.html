@@ -1,16 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vue 3 API Example (CDN)</title>
-    <script src="vue3global.js"></script>
-    <script src="vue3routerGlobal.js"></script>
+  <meta charset="UTF-8">
+  <title>Мини-CRM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .composition-block {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    button {
+      margin-right: 10px;
+    }
+  </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div class="form-group">
+    <label>Дата: <input type="date" id="date"></label>
+  </div>
 
-  <!-- Запуск модуля -->
-  <script type="module" src="./main.js"></script>
+  <div class="form-group">
+    <label>Имя клиента: <input type="text" id="client-name"></label>
+  </div>
+
+  <div class="form-group">
+    <label>Услуга:
+      <select id="service">
+        <option value="">Выберите услугу</option>
+        <option value="горячий">Горячий</option>
+        <option value="холодный">Холодный</option>
+        <option value="детокс">Детокс</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="form-group">
+    <label>Стоимость услуги: <input type="number" id="service-cost"></label>
+  </div>
+
+  <div id="compositions-container"></div>
+
+  <script>
+    const compositionsByService = {
+      горячий: ["Амазон", "Тропик"],
+      холодный: ["Мята", "Лаванда"],
+      детокс: ["Биодетокс", "Скраб-микс"]
+    };
+
+    const serviceSelect = document.getElementById("service");
+    const container = document.getElementById("compositions-container");
+
+    serviceSelect.addEventListener("change", () => {
+      container.innerHTML = '';
+      if (!serviceSelect.value) return;
+      addCompositionBlock();
+    });
+
+    function addCompositionBlock() {
+      const block = document.createElement("div");
+      block.className = "composition-block";
+
+      const service = serviceSelect.value;
+      const compositions = compositionsByService[service] || [];
+
+      const compositionDropdown = document.createElement("select");
+      compositions.forEach(comp => {
+        const option = document.createElement("option");
+        option.value = comp;
+        option.textContent = comp;
+        compositionDropdown.appendChild(option);
+      });
+
+      const volumeInput = document.createElement("input");
+      volumeInput.type = "number";
+      volumeInput.placeholder = "Объем (мл)";
+      volumeInput.style.marginLeft = "10px";
+
+      block.appendChild(compositionDropdown);
+      block.appendChild(volumeInput);
+
+      const buttons = container.querySelectorAll("button");
+      if (buttons.length === 0) {
+        const addButton = document.createElement("button");
+        addButton.textContent = "Добавить";
+        addButton.onclick = addCompositionBlock;
+
+        const calcButton = document.createElement("button");
+        calcButton.textContent = "Посчитать";
+        calcButton.onclick = calculateTotal;
+
+        block.appendChild(addButton);
+        block.appendChild(calcButton);
+      }
+
+      container.appendChild(block);
+    }
+
+    function calculateTotal() {
+      const cost = parseFloat(document.getElementById("service-cost").value);
+      if (isNaN(cost)) {
+        alert("Введите стоимость услуги");
+        return;
+      }
+
+      let totalUsed = 0;
+      const blocks = document.querySelectorAll(".composition-block");
+      blocks.forEach(block => {
+        const volumeInput = block.querySelector("input[type='number']");
+        const volume = parseFloat(volumeInput.value);
+        if (!isNaN(volume)) {
+          totalUsed += volume; // Можно заменить на логику по стоимости состава
+        }
+      });
+
+      const result = cost - totalUsed;
+      alert(`Итоговая сумма: ${result}`);
+    }
+  </script>
 </body>
 </html>
